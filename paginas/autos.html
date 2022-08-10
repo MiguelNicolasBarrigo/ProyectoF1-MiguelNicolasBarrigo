@@ -11,72 +11,89 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     <div class="container__grid">
         <header class="encabezado">
            
-           <nav>
-               <img src="https://i.pinimg.com/564x/d6/a6/30/d6a630cac11c3f3ef403d40047b94981.jpg"alt="logo formula 1" class="logo">
-               
-               <ul class="navbar">
-
-                   <li><a href="../index.html">Inicio</a></li>
-                   <li><a href="pilotos.html">Pilotos</a></li>
-                   <li><a href="#">Autos</a></li>
-                   <li><a href="calendario.html">Calendario</a></li>
-                   <li><a href="contacto.html">Contacto</a></li>
-
-               </ul>
-           </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid ">
+                  <img src="https://i.pinimg.com/564x/d6/a6/30/d6a630cac11c3f3ef403d40047b94981.jpg"alt="logo formula 1" class="logo">
+    
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active tamaño" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle tamaño" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Menu Desplegable
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item tamaño" href="pilotos.html" >Pilotos</a></li>
+                          <li><a class="dropdown-item tamaño" href="#">Autos</a></li>
+                          <li><a class="dropdown-item tamaño" href="calendario.html">Calendario</a></li>
+                          <li><a class="dropdown-item tamaño" href="contacto.html">Contacto</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
 
         </header>
         <main>
             <h2 class="animate__animated animate__flash animate__infinite animate__slow">Autos</h2>
 
-            <section class="contenedor-imagenes">
+            <section  class="container-fluid">
+                <div class="row d-flex justify-content-center align-items-center">
 
-                <div class="card">
-                    <img src="../imagenes/auto1.jpg" alt="" class="img">
+                   <div class="col-xl-5 col-md-12">
+                    <img src="../imagenes/auto1.jpg" alt="" class="tarjeta">
                     <h3>Red Bull Raicing RB18</h3>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/auto2.jpg" alt="">
+                   </div>
+                   <div class="col-xl-5 col-md-12 ">
+                    <img src="../imagenes/auto2.jpg" alt="" class="tarjeta">
                     <h3>Mercedes W13</h3>
-                </div>
+                   </div>
               
-                <div class="card">
-                    <img src="../imagenes/auto3.jpg" alt="">
+                   <div class="col-xl-5 col-md-12 ">
+                    <img src="../imagenes/auto3.jpg" alt="" class="tarjeta">
                     <h3>Ferrari F1-75</h3>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/auto4.jpg" alt="">
+                   </div>
+                   <div class="col-xl-5 col-md-12 ">
+                    <img src="../imagenes/auto4.jpg" alt="" class="tarjeta">
                     <h3>McLaren MCL36 </h3>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/auto5.jpg" alt="">
+                   </div>
+                   <div class="col-xl-5 col-md-12 ">
+                    <img src="../imagenes/auto5.jpg" alt="" class="tarjeta">
                     <h3>Alpine A522</h3>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/auto6.jpg" alt="">
+                   </div>
+                   <div class="col-xl-5 col-md-12 ">
+                    <img src="../imagenes/auto6.jpg" alt="" class="tarjeta">
                     <h3>Aston Martin AMR22</h3>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/auto9.jpg" alt="">
+                   </div>
+                   <div class="col-xl-5 col-md-12 ">
+                    <img src="../imagenes/auto9.jpg" alt="" class="tarjeta">
                     <h3>Alfa Romeo C42</h3>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/auto10.jpg" alt="">
+                   </div>
+                   <div class="col-xl-5 col-md-12 ">
+                    <img src="../imagenes/auto10.jpg" alt="" class="tarjeta">
                     <h3>Hass VF-22</h3>
-                </div><div class="card">
-                    <img src="../imagenes/auto7.jpg" alt="">
+                   </div>
+                   <div class="col-xl-5 col-md-12 ">
+                    <img src="../imagenes/auto7.jpg" alt="" class="tarjeta">
                     <h3>AlphaTauri AT03</h3>
-                </div>
-                <div class="card">
-                    <img src="../imagenes/auto8.jpg" alt="">
+                   </div>
+                   <div class="col-xl-5 col-md-12 ">
+                    <img src="../imagenes/auto8.jpg" alt="" class="tarjeta">
                     <h3> Williams FW44</h3>
+                   </div>
                 </div>
-                
                 
            
             </section>
@@ -89,7 +106,8 @@
         </footer>
     </div>
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   
    
 
 

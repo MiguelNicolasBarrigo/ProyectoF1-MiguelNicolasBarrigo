@@ -11,25 +11,40 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 </head>
 <body>
     <div class="container__grid">
         <header class="encabezado">
            
-           <nav>
-               <img src="https://i.pinimg.com/564x/d6/a6/30/d6a630cac11c3f3ef403d40047b94981.jpg"alt="logo formula 1">
-               
-               <ul class="navbar">
-
-                   <li><a href="../index.html">Inicio</a></li>
-                   <li><a href="pilotos.html">Pilotos</a></li>
-                   <li><a href="autos.html">Autos</a></li>
-                   <li><a href="calendario.html">Calendario</a></li>
-                   <li><a href="#">Contacto</a></li>
-
-               </ul>
-           </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid ">
+                  <img src="https://i.pinimg.com/564x/d6/a6/30/d6a630cac11c3f3ef403d40047b94981.jpg"alt="logo formula 1" class="logo">
+    
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active tamaño" aria-current="page" href="../index.html">Inicio</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle tamaño" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Menu Desplegable
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item tamaño" href="pilotos.html" >Pilotos</a></li>
+                          <li><a class="dropdown-item tamaño" href="autos.html">Autos</a></li>
+                          <li><a class="dropdown-item tamaño" href="calendario.html">Calendario</a></li>
+                          <li><a class="dropdown-item tamaño" href="#">Contacto</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
 
         </header>
 
@@ -41,24 +56,24 @@
 
             </section>
 
-            <section class="contacto">
-                 <h3>¿Que te parecio el contenido de la pagina y la informacion?</h3>
+            <section class="conteiner-fluid row">
+                 <h3 class="col-xl-12 col-md-12  d-flex justify-content-center align-items-center">¿Que te parecio el contenido de la pagina y la informacion?</h3>
 
-                 <p class="slogan">Nos interesa saber esto con el fin de poder seguir mejorando la info y contenido que brindamos para que todos puedan tener un sitio copado para adentrasre en este mundo de la F1</p>
+                 <p class="col-xl-12 col-md-12 texto d-flex justify-content-center align-items-center">Nos interesa saber esto con el fin de poder seguir mejorando la info y contenido que brindamos para que todos puedan tener un sitio copado para adentrasre en este mundo de la F1</p>
             </section>   
-            <section class="contacto"> 
+            <section class="conteiner-fluid row"> 
      
-                <div class="encuesta">
+                <div class="col-xl-12 col-md-12 ">
      
-                  <label for="Excelente">
-                  <input id="Excelente" type="radio" value="Excelente" name="Excelente-Bueno-Malo" class="encuesta_tipo"> EXCELETE
+                  <label for="Excelente" class="encuesta__tipo">
+                  <input id="Excelente" type="radio" value="Excelente" name="Excelente-Bueno-Malo"> EXCELETE
                   </label>
                   <!--Texto y boton de enviar-->
-                  <label for="Bueno" class="">
-                  <input id="Bueno" type="radio"    value="Bueno"    name="Excelente-Bueno-Malo"    class="encuesta_tipo"> BUENO
+                  <label for="Bueno" class="encuesta__tipo">
+                  <input id="Bueno" type="radio"    value="Bueno"    name="Excelente-Bueno-Malo"> BUENO
                   </label>
-                  <label for="Malo">
-                  <input id="Malo" type="radio"    value="Malo"    name="Excelente-Bueno-Malo"    class="encuesta_tipo"> MALO
+                  <label for="Malo" class="encuesta__tipo" >
+                  <input id="Malo" type="radio"    value="Malo"    name="Excelente-Bueno-Malo"> MALO
                   </label>
                   <br>
                   <br>
@@ -66,9 +81,9 @@
                   <p class="texto3">Tambien es de muchisima ayuda que nos dejes un breve comentario o critica para especificar un poco mas tu opinion y asi poder mejorar y seguir creciendo con el objetivo de ser una buena pagina con buen contenido para aquellas personas que quieren conocer un poco mas de este deporte tan apacionante..</p>
                   <br>
                   <input type="text"placeholder="criticas" required class="criticas">
-                  <button type="submit" class="criticas_enviar">Enviar</   button>
+                  <button type="submit" class="criticas_enviar">Enviar</button>
                   <br>
-            </div>   
+              </div>   
             </section>
 
         </main>
@@ -78,4 +93,5 @@
            <a href="https://www.facebook.com/Formula1"><i class="fa-brands fa-facebook color animate__animated animate__bounce animate__repeat-3 animate__slow"></i></a>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>        
