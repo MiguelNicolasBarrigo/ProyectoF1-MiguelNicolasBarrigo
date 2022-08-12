@@ -57,6 +57,7 @@ h2{
     font-weight: bold;
     color: white;
     text-align: center;
+    font-size: xx-large;
     
     
 }
@@ -107,13 +108,8 @@ footer a {
     font-size: 3rem;
 }
 
-.subtitulo{
-    margin-top: 25px;
-    margin-bottom: 15px;
-    font-size: xx-large;
-}
 
-.calen{
+.calendario{
     width: 40%;
     border:solid white 1px;
 }
@@ -166,13 +162,11 @@ footer a {
       
       
       .imagen{
-        width:50%;
-        height: 40%;
+        width:90%;
         object-fit: cover;
-        margin-right: 10px;
+        margin-right: 5px;
       }
       .texto{
-        justify-content:space-around;
         font-size:medium;
         margin-top: 5%;
         margin-bottom: 5%;
@@ -180,6 +174,9 @@ footer a {
        h1{
         font-size: larger;
         
+       }
+       h2{
+        font-size: medium;
        }
 
      .subtitulo{
@@ -190,7 +187,7 @@ footer a {
       }
    
       h3{
-        font-size: small;
+        font-size: medium;
       
       
     }
@@ -204,7 +201,7 @@ footer a {
    
 
     .calendario{
-        margin-left: 5%;
+        width: 60%;
     }
 
     .encuesta__tipo{
@@ -229,35 +226,28 @@ footer a {
   @media screen and (min-width: 768px) and (max-width: 1024px){
 
     
-    h1{
-        font-size: x-large;
-    }
-    
+   
 
     .texto{
+        margin-left:5%;
+        margin-right: 5%;
+        text-align: justify;
         font-size: x-large;
     }
     .imagen{
-        width: 50%;
-        height: 40%;
-        object-fit: cover;
+        width: 90%;
     }
 
 
     footer a{
         font-size: 2rem;
     }
-    h3{
-        font-size: larger;
-    }
- 
-    
-     footer a{
+   
+
+    footer a{
         font-size: 4rem;
     }
-    .subtitulo{
-        font-size:xx-large;
-    }
+    
     .criticas{
         width: 40%;
         height: 10%;
