@@ -30,7 +30,7 @@ grid-template-areas: "header header"
     
 }
 .logo{
-    width: 30%;
+    width: 20%;
    
 }
 .encabezado {
@@ -78,12 +78,12 @@ p{
 
 .texto{
     margin-top: 40px;
-   font-size: x-large;
+    font-size: x-large;
 }
 
 .imagen{
     width:50%;
-    border:solid white 3px;
+    border:solid white 2px;
 }
 
 .tarjeta{
@@ -91,6 +91,7 @@ p{
     width: 90%;
     border:rgb(98, 8, 8) 5px;
     border-style:solid;
+    box-shadow: 0 15px 15px rgb(11, 11, 11);
    
 }
 
@@ -117,10 +118,7 @@ footer a {
     border:solid white 1px;
 }
 
-.calendario{
-    margin-top: 0%;
-    margin-bottom: 5%;
-}
+
 .texto2{
     text-align:justify;
     margin: 10%;
@@ -190,19 +188,7 @@ footer a {
       footer a{
           font-size: 2rem;
       }
-      .card{
-
-        margin: 5px;
-        box-shadow:none;
-        
-
-      }
-
-      .card img{
-        width: 80%;
-        border:rgb(98, 8, 8) 5px solid;
-        
-    }
+   
       h3{
         font-size: small;
       
@@ -265,11 +251,7 @@ footer a {
         font-size: larger;
     }
  
-    .card img{
-        width: 70%;
-        border:rgb(98, 8, 8) 3px;
-        filter: none;
-     }
+    
      footer a{
         font-size: 4rem;
     }
