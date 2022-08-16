@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+body{
+    height: 100vh;
+    background-image: radial-gradient(circle, #67050e, #5f040e, #56030e, #4e020d, #46020c, #3e030c, #37050c, #2f050b, #26050b, #1e0309, #130205, #000000);
+}
+
+.container__grid {
+    min-height: 100vh;
+    display: grid;
+    grid-template-areas: "header header" 
+   "main main" 
+   "main main "
+   "main  main" 
+   "footer footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto; }
+  

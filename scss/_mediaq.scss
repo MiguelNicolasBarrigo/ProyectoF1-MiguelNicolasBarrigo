@@ -1,0 +1,105 @@
+
+   @media screen and (max-width: 768px) {
+  
+      
+      
+    .imagen{
+      width:90%;
+      object-fit: cover;
+      margin-right: 5px;
+    }
+    .texto{
+      font-size:medium;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+     h1{
+      font-size: larger;
+      
+     }
+     h2{
+      font-size: medium;
+     }
+
+   .subtitulo{
+      font-size: medium;
+   }
+    footer a{
+        font-size: 2rem;
+    }
+ 
+    h3{
+      font-size: medium;
+    
+    
+  }
+  .texto2{
+      text-align:justify;
+      margin: 5%;
+      font-size:medium;
+  
+  
+  }
+ 
+
+  .calendario{
+      width: 60%;
+  }
+
+  .encuesta__tipo{
+      font-size:medium;
+  }
+  .texto3{
+      font-size:medium;
+  }
+  .criticas{
+      width: 40%;
+      height: 10%;
+      margin-bottom: 15%;
+  }
+  
+  .criticas_enviar{
+      width: 20%;
+      height: 10%;
+      margin-bottom: 15%;
+  }
+}
+  
+  @media screen and (min-width: 768px) and (max-width: 1024px){
+
+    
+   
+
+    .texto{
+        margin-left:5%;
+        margin-right: 5%;
+        text-align: justify;
+        font-size: x-large;
+    }
+    .imagen{
+        width: 90%;
+    }
+
+
+    footer a{
+        font-size: 2rem;
+    }
+   
+
+    footer a{
+        font-size: 4rem;
+    }
+    
+    .criticas{
+        width: 40%;
+        height: 10%;
+        margin-bottom: 15%;
+    }
+    
+    .criticas_enviar{
+        width: 20%;
+        height: 10%;
+        margin-bottom: 15%;
+    }
+    
+}
