@@ -9,13 +9,12 @@ main {
 
     .tarjeta {
         @include tarjetas;
+
     }
 
     h3 {
         font-family: 'Times New Roman', Times, serif;
-        font-weight:  map-get($fuentes, dos);
+        font-weight:  map-get($fuentes, dos );
         color: $color-blanco;
     }
-
-
 }

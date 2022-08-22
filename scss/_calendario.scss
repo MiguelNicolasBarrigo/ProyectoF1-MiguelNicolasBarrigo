@@ -1,0 +1,33 @@
+main {
+    h2 {
+        font-family: 'Albert Sans', sans-serif;
+        font-weight:  map-get($fuentes, uno );
+        color:$color-blanco;
+        text-align: center;
+        font-size: $fuente3;
+    }
+
+        p     {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: map-get($fuentes, tres);
+            font-size: large;
+            color:$color-blanco;
+        }
+
+        .calendario     {
+        width: 40%;
+        border: solid $color-blanco 1px;
+        }
+
+        .texto     {
+            margin-top: 40px;
+            font-size: $fuente2;
+        }
+
+        .texto2     {
+            text-align: justify;
+            margin: 10%;
+            font-size: $fuente2
+        }
+
+}
