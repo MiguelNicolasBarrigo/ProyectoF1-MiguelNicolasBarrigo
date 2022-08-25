@@ -22,6 +22,21 @@ body {
         "footer footer";
     grid-template-columns: 1fr;
     grid-template-rows: auto;
+
+    .encabezado {
+        grid-area: header;
+        display: flex;
+        flex-direction: column;
+    }
+
+        .logo {
+            width: 40%;
+
+        }
+        .tamaño{
+            font-size: $fuente2;
+        }
+
 }
 
 footer {
@@ -35,6 +50,5 @@ footer {
         color: $color-blanco;
         font-size: 3rem;
     }
-
 
 }

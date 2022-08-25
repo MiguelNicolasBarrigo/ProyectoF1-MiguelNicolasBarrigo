@@ -2,81 +2,7 @@
 /* colores */
 /* tamaño fuentes */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:wght@200&family=Roboto+Condensed:wght@300&display=swap");
-@media screen and (max-width: 768px) {
-  .imagen {
-    width: 90%;
-    object-fit: cover;
-    margin-right: 5px; }
-  .logo {
-    width: 20%; }
-  .texto {
-    font-size: large;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    text-align: justify; }
-  h1 {
-    font-size: larger; }
-  h2 {
-    font-size: medium; }
-  .subtitulo {
-    font-size: medium; }
-  footer a {
-    font-size: 2rem; }
-  h3, main p {
-    font-size: larger; }
-  .texto2 {
-    text-align: justify;
-    margin: 5%;
-    font-size: medium; }
-  .calendario {
-    width: 60%; }
-  .encuesta__tipo {
-    font-size: medium; }
-  .texto3 {
-    font-size: medium; }
-  .criticas {
-    width: 40%;
-    height: 10%;
-    margin-bottom: 15%; }
-  .criticas_enviar {
-    width: 20%;
-    height: 10%;
-    margin-bottom: 15%; } }
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .logo {
-    width: 30%; }
-  .texto {
-    margin-left: 2%;
-    margin-right: 2%;
-    text-align: justify;
-    font-size: x-large; }
-  .texto2 {
-    margin-left: 2%;
-    margin-right: 2%;
-    text-align: justify;
-    font-size: x-large; }
-  .texto3 {
-    font-size: x-large;
-    text-align: justify;
-    margin-left: 2%;
-    margin-right: 2%; }
-  .imagen {
-    width: 90%; }
-  footer a {
-    font-size: 2rem; }
-  footer a {
-    font-size: 4rem; }
-  .criticas {
-    width: 40%;
-    height: 10%;
-    margin-bottom: 15%; }
-  .criticas_enviar {
-    width: 20%;
-    height: 10%;
-    margin-bottom: 15%; } }
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -92,6 +18,14 @@ body {
   grid-template-areas: "header header" "main main" "main main " "main  main" "footer footer";
   grid-template-columns: 1fr;
   grid-template-rows: auto; }
+  .container__grid .encabezado {
+    grid-area: header;
+    display: flex;
+    flex-direction: column; }
+  .container__grid .logo {
+    width: 40%; }
+  .container__grid .tamaño {
+    font-size: x-large; }
 
 footer {
   grid-area: footer;
@@ -103,136 +37,157 @@ footer {
     color: white;
     font-size: 3rem; }
 
-.container__grid .encabezado {
-  grid-area: header;
-  display: flex;
-  flex-direction: column; }
+@media screen and (max-width: 760px) {
+  main section .titulo, main section .subtitulo {
+    font-size: large; }
+  main section .texto {
+    font-size: medium; }
+  main section .imagen {
+    width: 70%; }
+  main .subtitulo {
+    font-size: large;
+    text-align: center; }
+  main section div .texto4 {
+    font-size: large;
+    margin: 2%;
+    margin-bottom: 5%;
+    text-align: justify; }
+  main section div .calendario {
+    width: 70%; }
+  main section .texto2 {
+    font-size: large;
+    margin: 2%;
+    margin-top: 5%; }
+  section .texto5 {
+    font-size: large;
+    margin: 1%;
+    text-align: justify; }
+  section .texto3, section .texto4, section .texto5 {
+    font-size: large;
+    margin: 1%;
+    text-align: justify; }
+  section .criticas {
+    width: 30%;
+    height: 10%;
+    margin-bottom: 15%;
+    margin-left: 5%; }
+    section .criticas:focus {
+      width: 35%;
+      height: 15%;
+      font-size: large; }
+  section .criticas_enviar {
+    width: 25%;
+    height: 10%;
+    margin-bottom: 15%; } }
 
-.container__grid .logo {
-  width: 40%; }
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  main section .titulo, main section .subtitulo {
+    font-size: xx-large; }
+  main section div .texto {
+    font-size: x-large;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify; }
+  main section div .imagen {
+    width: 65%; }
+  main .subtitulo {
+    font-size: xx-large; }
+  main .subtitulo {
+    font-size: xx-large;
+    text-align: center; }
+  main section div .texto4 {
+    font-size: x-large;
+    margin: 2%;
+    margin-bottom: 5%; }
+  main section div .calendario {
+    width: 60%; }
+  main section .texto2 {
+    font-size: x-large;
+    margin: 2%;
+    margin-top: 10%;
+    margin-bottom: 10%; } }
 
-.container__grid .tamaño {
-  font-size: x-large; }
-
-.container__grid .video {
+.container__grid .encabezado .video {
   width: 100%;
   height: 90%; }
 
-.main h1 {
-  font-family: 'Albert Sans', sans-serif;
+.titulo, .subtitulo {
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   color: white;
   text-align: center;
   font-size: xx-large; }
 
-.main p {
+.subtitulo {
+  font-family: 'Roboto Condensed', sans-serif; }
+
+h3 {
   font-family: 'Times New Roman', Times, serif;
-  font-weight: 500;
-  font-size: large;
+  font-weight: bolder;
   color: white; }
 
-.main .texto {
-  margin-top: 40px;
-  font-size: x-large; }
+.tarjetaautos {
+  width: 90%;
+  border: #620808;
+  border-style: solid;
+  box-shadow: 0 15px 15px #0b0b0b;
+  filter: grayscale(1); }
+  .tarjetaautos:hover {
+    filter: none; }
 
-.main .imagen {
+.tarjetapilotos {
+  width: 90%;
+  filter: grayscale(1); }
+  .tarjetapilotos:hover {
+    filter: none; }
+
+.texto {
+  margin-top: 40px;
+  font-size: x-large;
+  font-weight: 500;
+  color: white; }
+
+.imagen {
   width: 50%;
   border: solid white 2px; }
 
-main h2 {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  font-size: xx-large; }
-
-main .tarjeta {
-  width: 90%;
-  border: #620808;
-  border-style: solid;
-  box-shadow: 0 15px 15px #0b0b0b; }
-
-main h3, main p {
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bolder;
-  color: white; }
-
-main h2 {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  font-size: xx-large; }
-
-main .tarjeta {
-  width: 90%;
-  border: #620808;
-  border-style: solid;
-  box-shadow: 0 15px 15px #0b0b0b; }
-
-main h3, main p {
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bolder;
-  color: white; }
-
-main h2 {
-  font-family: 'Albert Sans', sans-serif;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  font-size: xx-large; }
-
-main p {
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 500;
-  font-size: large;
-  color: white; }
-
-main .calendario {
+.calendario {
   width: 40%;
   border: solid white 1px; }
 
-main .texto {
-  margin-top: 40px;
-  font-size: x-large; }
-
-main .texto2 {
+.texto2 {
   text-align: justify;
   margin: 10%;
-  font-size: x-large; }
-
-main h1 {
-  font-family: 'Albert Sans', sans-serif;
-  font-weight: bold;
-  color: white;
-  text-align: center;
-  font-size: xx-large; }
-
-main h3, main p {
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bolder;
+  font-size: x-large;
   color: white; }
 
-main p {
-  font-weight: 500;
-  font-size: large; }
+.texto3, .texto4, .texto5 {
+  font-size: x-large;
+  color: white; }
 
-main .encuesta__tipo {
+.texto5 {
+  margin-top: 40px; }
+
+.encuesta__tipo {
   display: flex;
   flex-direction: row;
   color: white;
   font-size: large;
   margin-left: 2%; }
 
-main .criticas {
+.criticas {
   width: 20%;
   height: 20%;
   margin-bottom: 15%;
   margin-left: 2%; }
+  .criticas:focus {
+    width: 25%;
+    height: 25%;
+    font-size: x-large;
+    margin-bottom: 15%;
+    margin-left: 2%; }
 
-main:focus {
-  width: 25%;
-  height: 25%;
-  font-size: x-large;
-  margin-bottom: 15%;
-  margin-left: 2%; }
+.criticas_enviar {
+  width: 10%;
+  height: 20%;
+  margin-bottom: 15%; }

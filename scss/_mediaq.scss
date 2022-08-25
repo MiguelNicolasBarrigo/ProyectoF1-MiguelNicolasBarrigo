@@ -1,135 +1,141 @@
-@media screen and (max-width: 768px) {
-
-
-
-    .imagen {
-        width: 90%;
-        object-fit: cover;
-        margin-right: 5px;
-    }
-
-    .logo{
-        width:20% ;
-    }
-
-    .texto {
-        font-size:large;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        text-align: justify;
-    }
-
-    h1 {
-        font-size: larger;
-
-    }
-
-    h2 {
-        font-size: medium;
-    }
-
-    .subtitulo {
-        font-size: medium;
-    }
-
-    footer {
-        a {
-            font-size: 2rem;
+@media screen and (max-width: 760px) {
+    main {
+        section {
+            .titulo {
+                font-size: $fuente1;
+            }
         }
+
+        section {
+            .texto {
+                font-size: medium;
+            }
+
+            .imagen {
+                width: 70%;
+            }
+        }
+
     }
 
-
-    h3 {
-        font-size: larger;
+    main {
+        .subtitulo {
+            font-size: large;
+            text-align: center;
+        }
+        section{
+            div{
+                .texto4 {
+                        font-size: large;
+                        margin: 2%;
+                        margin-bottom: 5%;
+                        text-align: justify;
+                }
+                .calendario {
+                        width: 70%;
+                }
+            }
+        }
+        section{
+            .texto2{
+                font-size: large;
+                margin:2% ;
+                margin-top: 5%;
+                
+            }
+        }
+           
+             
+        
     }
 
-    .texto2 {
-        text-align: justify;
-        margin: 5%;
-        font-size: medium;
-
-    }
-
-
-    .calendario {
-        width: 60%;
-    }
-
-    .encuesta__tipo {
-        font-size: medium;
-    }
-
-    .texto3 {
-        font-size: medium;
-    }
-   
-
-    .criticas {
-        width: 40%;
-        height: 10%;
-        margin-bottom: 15%;
-    }
-
-    .criticas_enviar {
-        width: 20%;
-        height: 10%;
-        margin-bottom: 15%;
+    section {
+        .texto5 {
+            font-size: large;
+            margin: 1%;
+            text-align: justify;
+        }
+        .texto3{
+            font-size: large;
+            margin: 1%;
+            text-align: justify;
+        }
+        .criticas {
+            width: 30%;
+            height: 10%;
+            margin-bottom: 15%;
+            margin-left: 5%;
+            &:focus {
+                width: 35%;
+                height: 15%;
+                font-size: large;      
+            }
+        }
+        
+        .criticas_enviar {
+            width: 25%;
+            height: 10%;
+            margin-bottom: 15%;
+        }
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
 
 
-    .logo{
-        width:30% ;
-    }
-
-    .texto {
-        margin-left: 2%;
-        margin-right: 2%;
-        text-align: justify;
-        font-size: x-large;
-    }
-    .texto2{
-        margin-left: 2%;
-        margin-right: 2%;
-        text-align: justify;
-        font-size: x-large;
-    }
-
-    .texto3{
-        font-size: x-large;
-        text-align: justify;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-
-    .imagen {
-        width: 90%;
-    }
-
-
-    footer a {
-        font-size: 2rem;
-    }
-
-
-    footer {
-        a {
-            font-size: 4rem;
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+   main{
+    section{
+        .titulo{
+            font-size:$fuente3;
         }
     }
-
-    .criticas {
-        width: 40%;
-        height: 10%;
-        margin-bottom: 15%;
+    section{
+        div{
+            .texto{
+                font-size: $fuente2;
+                margin-left: 5%;
+                margin-right: 5%;
+                text-align: justify;
+            }
+            .imagen{
+                width: 65%;
+            }
+        }
     }
-
-    .criticas_enviar {
-        width: 20%;
-        height: 10%;
-        margin-bottom: 15%;
+} 
+main{
+    .subtitulo{
+        font-size: $fuente3;
     }
+}
+main {
+    .subtitulo {
+        font-size: $fuente3;
+        text-align: center;
+    }
+    section{
+        div{
+            .texto4 {
+                    font-size: $fuente2;
+                    margin: 2%;
+                    margin-bottom: 5%;
+            }
+            .calendario {
+                    width: 60%;
+            }
+        }
+    }
+    section{
+        .texto2{
+            font-size: $fuente2;
+            margin:2%;
+            margin-top: 10%;
+            margin-bottom: 10%;
+        }
+    }
+       
+         
+    
+}
 
 }

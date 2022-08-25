@@ -1,6 +1,20 @@
-@mixin tarjetas {
+@mixin tarjetaautos {
     width: 90%;
-        border: $color-bordo;
-        border-style: solid;
-        box-shadow: 0 15px 15px rgb(11, 11, 11);
+    border: $color-bordo;
+    border-style: solid;
+    box-shadow: 0 15px 15px rgb(11, 11, 11);
+    filter: grayscale(1);
+
+    &:hover {
+        filter: none;
+    }
+}
+
+@mixin tarjetapilotos {
+    width: 90%;
+    filter: grayscale(1);
+
+    &:hover {
+        filter: none;
+    }
 }
