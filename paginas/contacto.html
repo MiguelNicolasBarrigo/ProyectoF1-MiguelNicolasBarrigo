@@ -66,25 +66,29 @@
             </section>   
             <section class="conteiner-fluid row m-3"> 
      
-                <div class="col-xl-12 col-md-12 ">
+                <div class="col-xl-12 col-md-12 m-12">
      
-                  <label for="Excelente" class="encuesta__tipo">
-                  <input id="Excelente" type="radio" value="Excelente" name="Excelente-Bueno-Malo"> EXCELETE
-                  </label>    
-                  <label for="Bueno" class="encuesta__tipo">
-                  <input id="Bueno" type="radio"    value="Bueno"    name="Excelente-Bueno-Malo"> BUENO
-                  </label>
-                  <label for="Malo" class="encuesta__tipo" >
-                  <input id="Malo" type="radio"    value="Malo"    name="Excelente-Bueno-Malo"> MALO
-                  </label>
-                  <br>
-                  <br>
+                  <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                    <option selected>Calificacion</option>
+                    <option value="1">Bueno</option>
+                    <option value="2">Muy Bueno</option>
+                    <option value="3">Excelente</option>
+                    <option value="4">Regular</option>
+                    <option value="5">Malo</option>
+                  </select>
      
-                  <p class="texto3">Tambien es de muchisima ayuda que nos dejes un breve comentario o critica para especificar un poco mas tu opinion y asi poder mejorar y seguir creciendo con el objetivo de ser una buena pagina con buen contenido para aquellas personas que quieren conocer un poco mas de este deporte tan apacionante..</p>
-                  <br>
-                  <input type="text"placeholder="criticas" required class="criticas">
-                  <button type="submit" class="criticas_enviar">Enviar</button>
-                  <br>
+                  <p class="texto3">Tambien nos encantaria que nos dejes un breve comentario o critica para especificar un poco mas tu opinion y asi poder mejorar y seguir creciendo con el objetivo de ser una buena pagina con buen contenido para aquellas personas que quieren conocer un poco mas de este deporte tan apacionante..</p>
+                  <div class="m-3">
+                    <label for="exampleFormControlInput1" class="form-label text-white">Direccion de Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="m-3">
+                    <label for="exampleFormControlTextarea1" class="form-label text-white">Comentario</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <div class="col-12 m-3">
+                    <button class="btn btn-danger" type="submit">Enviar</button>
+                  </div>
               </div>   
             </section>
 

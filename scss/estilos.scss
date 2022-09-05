@@ -79,32 +79,4 @@ h3 {
    
 }
 
-.encuesta__tipo {
-    display: flex;
-    flex-direction: row;
-    color: $color-blanco;
-    font-size: $fuente1;
-    margin-left: 2%;
-}
-
-.criticas {
-    width: 20%;
-    height: 20%;
-    margin-bottom: 15%;
-    margin-left: 2%;
-
-    &:focus {
-        width: 25%;
-        height: 25%;
-        font-size: $fuente2;
-        margin-bottom: 15%;
-        margin-left: 2%;
-    }
-}
-
-.criticas_enviar {
-    width: 10%;
-    height: 20%;
-    margin-bottom: 15%;
-}
 
